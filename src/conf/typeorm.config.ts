@@ -17,7 +17,7 @@ export class TypeOrmConfigService implements TypeOrmOptionsFactory {
       database: 'mycv',
       entities: [__dirname + '/../**/*.entity.{js,ts}'],
       subscribers: [__dirname + '/../**/*.subscriber.{js,ts}'],
-      // synchronize: true,
+    //   synchronize: true,
       charset: 'utf8mb4_unicode_ci',
       logging: true,
       legacySpatialSupport: false,

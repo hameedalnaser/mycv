@@ -6,6 +6,9 @@ import { ReportsModule } from './reports/reports.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { TypeOrmConfigService } from './conf/typeorm.config';
 import { ConfigModule } from '@nestjs/config';
+import { User } from './users/user.entity';
+
+
 @Module({
   imports: [
     TypeOrmModule.forRootAsync({
